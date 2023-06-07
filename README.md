@@ -1,6 +1,17 @@
 #### 印章图片生成工具
-
+maven
+<dependency>
+  <groupId>com.github.819548945</groupId>
+  <artifactId>tool.sealImage</artifactId>
+  <version>0.0.2</version>
+</dependency>
 #### 生成方章
+##### 使用方式
+使用默认模板
+PersonSealImageTool.buildPersonSealImage("测试印");
+指定模板
+PersonSealImageTool.buildPersonSealImage(personSealImageTemplate,"测试印");
+##### 默认样例
 ![零](https://github.com/819548945/lich.tool.sealImage/assets/30515245/1fc5271c-c28e-41dd-af42-77ac30d1a0a5)
 ![一](https://github.com/819548945/lich.tool.sealImage/assets/30515245/ea54facf-49e1-490e-aaff-f40ddd1f8cb6)
 ![二](https://github.com/819548945/lich.tool.sealImage/assets/30515245/4bba621e-7732-4120-bdcf-fef38c67500e)
