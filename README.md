@@ -1,13 +1,13 @@
 #### 印章图片生成工具
 maven
 
-****
+````xml
 <dependency>
   <groupId>com.github.819548945</groupId>
   <artifactId>tool.sealImage</artifactId>
   <version>0.0.2</version>
 </dependency>
-****
+````xml
 
 #### 生成方章
 ##### 使用方式
