@@ -8,8 +8,11 @@ maven
 #### 生成方章
 ##### 使用方式
 使用默认模板
+
 PersonSealImageTool.buildPersonSealImage("测试印");
+
 指定模板
+
 PersonSealImageTool.buildPersonSealImage(personSealImageTemplate,"测试印");
 ##### 默认样例
 ![零](https://github.com/819548945/lich.tool.sealImage/assets/30515245/1fc5271c-c28e-41dd-af42-77ac30d1a0a5)
