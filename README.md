@@ -7,7 +7,7 @@ maven
   <artifactId>tool.sealImage</artifactId>
   <version>0.0.2</version>
 </dependency>
-````xml
+xml````
 
 #### 生成方章
 ##### 使用方式
