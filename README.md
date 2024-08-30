@@ -23,6 +23,7 @@ maven
 圆章(椭圆章): SealImageTool.buildSealImage(sealImageTemplate);
 
 方章: PersonSealImageTool.buildPersonSealImage(personSealImageTemplate,"测试印");
+详细文档请参考 [http://doc.lich.me/](http://doc.lich.me/)  印章图片生成工具类（sealImage）章节
 ##### 默认样例
 ![零](https://github.com/819548945/lich.tool.sealImage/assets/30515245/1fc5271c-c28e-41dd-af42-77ac30d1a0a5)
 ![一](https://github.com/819548945/lich.tool.sealImage/assets/30515245/ea54facf-49e1-490e-aaff-f40ddd1f8cb6)
