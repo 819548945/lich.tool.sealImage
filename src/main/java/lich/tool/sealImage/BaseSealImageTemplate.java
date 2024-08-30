@@ -31,20 +31,23 @@ public class BaseSealImageTemplate {
 	public Color getColor() {
 		return color;
 	}
-	public void setColor(Color color) {
+	public BaseSealImageTemplate setColor(Color color) {
 		this.color = color;
+		return this;
 	}
 	public int getWidth() {
 		return width;
 	}
-	public void setWidth(int width) {
+	public BaseSealImageTemplate setWidth(int width) {
 		this.width = width;
+		return this;
 	}
 	public int getHeight() {
 		return height;
 	}
-	public void setHeight(int height) {
+	public BaseSealImageTemplate setHeight(int height) {
 		this.height = height;
+		return this;
 	}
 	
 	

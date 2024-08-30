@@ -18,7 +18,7 @@ import lich.tool.sealImage.WritingMode;
  * @author liuch
  *
  */
-public class PersonSealImage{
+public class PersonSealImageTool{
 	/**
 	 * 个人章默认模板列表
 	 */
@@ -85,7 +85,7 @@ public class PersonSealImage{
 	 * @throws SealImageException
 	 */
 	public static BufferedImage	buildPersonSealImage(String str) throws SealImageException{
-		return PersonSealImage.buildPersonSealImage(null, str);
+		return PersonSealImageTool.buildPersonSealImage(null, str);
 	}
 	/**
 	 * 生成方章
@@ -151,7 +151,7 @@ public class PersonSealImage{
 				i++;
 	    	}
 		}	
-		bi=PersonSealImage.subImage(bi);
+		bi=PersonSealImageTool.subImage(bi);
 		//设置边框
 		BufferedImage tag = new BufferedImage(p.getWidth(), p.getHeight(), bi.getType());
 	    tag.getGraphics().drawImage(bi,p.getMargin()+p.getFrameSize(), p.getMargin()+p.getFrameSize(),p.getWidth()-2*(p.getMargin()+p.getFrameSize()), p.getHeight()-2*(p.getMargin()+p.getFrameSize()), null);

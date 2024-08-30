@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.819548945</groupId>
   <artifactId>tool.sealImage</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.3</version>
   <name>印章图片生成工具</name>
   <description>印章图片生成工具</description>
   <parent>

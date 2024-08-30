@@ -1,5 +1,6 @@
 package lich.tool.sealImage;
 
+import java.awt.Font;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -13,9 +14,10 @@ import org.junit.Test;
 public class TestPersonSealImage {
 	@Test
 	public void Test() throws SealImageException, Exception {
-		String s="测试印章测试印章侧";
+		String s="张三三三三三三三印";
+		PersonSealImageTool.setDefaultFont(new Font("CESI_XBS_GB18030", Font.BOLD, 300));
 		for(int i=0;i<s.length();i++) {
-			System.out.println("测试"+(i+1)+"字章:"+Base64.getEncoder().encodeToString(buildBytes(PersonSealImage.buildPersonSealImage(s.substring(i)))));
+			System.out.println("测试"+(i+1)+"字章:"+Base64.getEncoder().encodeToString(buildBytes(PersonSealImageTool.buildPersonSealImage(s.substring(i)))));
 		}
 	}
 
